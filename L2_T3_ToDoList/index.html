@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="container-heading">
+            <u>
+                <h2>To Do List</h2>
+            </u>
+        </div>
+
+        <div class="button-container">
+            <input type="text" placeholder="Enter the Tasks" class="js-name-input" onkeydown="handleKeyEvent(event);">
+            <input type="date" class="js-date-input">
+            <button onclick="addtoDo();" class="js-add-button">Add</button>
+        </div>
+
+        <div class="sections-container">
+            <div class="section">
+                <h3>Pending Tasks</h3>
+                <div class="js-pending-tasks task-list"></div>
+            </div>
+
+            <div class="section">
+                <h3>Completed Tasks</h3>
+                <div class="js-completed-tasks task-list"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

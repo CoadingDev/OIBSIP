@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+    background: linear-gradient(135deg, #000000 0%, #6a6d6a 100%);
+    font-family: "Georgia", serif;
+    line-height: 1.6;
+    color: #ffffff;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 15px;
+  backdrop-filter: blur(10px);
+  overflow: hidden;
+}
+.image-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+.Steve_Jobs_image{
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    height: 300px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 20%;
+
+}
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px 0;
+  z-index: -1;
+  color: white;
+  /* display: flex; */
+  border-bottom: 3px solid #667eea;
+}
+
+.header h1 {
+  font-size: 3rem;
+  color: #000000;
+  margin-bottom: 10px;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header .subtitle {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.dates {
+  font-size: 1.1rem;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.image-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.bio-section {
+  margin: 25px 0;
+}
+
+.bio-section h2 {
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.bio-text {
+  font-size: 1.1rem;
+  text-align: justify;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.achievements {
+  /* background: linear-gradient(126deg,#000000 0%, #676767 80%); */
+  border-radius: 10px;
+  padding: 30px;
+  margin: 40px 0;
+  color: rgb(255, 255, 255);
+}
+
+.achievements h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 2rem;
+}
+
+.achievement-item {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 15px 0;
+  padding: 15px;
+  border-radius: 8px;
+  border-left: 4px solid #ffffff;
+}
+
+.achievement-item h3 {
+  font-size: 1.3rem;
+  margin-bottom: 8px;
+}
+
+.quote {
+  background: #ecf0f1;
+  border-left: 5px solid #667eea;
+  padding: 30px;
+  margin: 40px 0;
+  border-radius: 0 10px 10px 0;
+  font-style: italic;
+  text-align: center;
+  position: relative;
+}
+
+.quote::before {
+  content: '"';
+  font-size: 4rem;
+  color: #667eea;
+  position: absolute;
+  top: -10px;
+  left: 20px;
+}
+
+.quote p {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+  color: #2c3e50;
+}
+
+.quote-author {
+  font-weight: bold;
+  color: #34495e;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px 0;
+  border-top: 2px solid #bdc3c7;
+  margin-top: 40px;
+}
+
+.footer p {
+  color: #d5d5d5;
+  font-size: 1rem;
+}
+
+.learn-more {
+  display: inline-block;
+  background: black;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 25px;
+  margin-top: 15px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+}
+
+.learn-more:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+/* added media query */
+@media (max-width: 768px) {
+  .container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 2.2rem;
+  }
+
+  .bio-text {
+    padding: 0 10px;
+    }
+}

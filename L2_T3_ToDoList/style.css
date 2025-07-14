@@ -1,0 +1,132 @@
+ * {
+  margin: 5px;
+  padding: 5px;
+}
+
+body {
+  background: linear-gradient(to right, #4753ff, #000000);
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  color: black;
+  background-color: rgb(255, 255, 255);
+  height: 80vh;
+  width: 70vw;
+  border: 2px solid rgb(0, 128, 255);
+  border-radius: 15px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.js-add-button,
+.delete-button,
+.complete-button,
+.edit-button {
+  padding: 10px 15px;
+  height: 45px;
+  background: rgb(26, 213, 26);
+  border: 2px solid whitesmoke;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+.complete-button {
+  background: rgb(255, 165, 0);
+}
+
+.edit-button {
+  background: rgb(54, 162, 235);
+}
+
+.delete-button {
+  background: red;
+}
+
+#container-heading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+}
+
+.js-add-button:hover {
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  transform: scale(1.1);
+  transition: 0.2s;
+}
+
+.js-name-input {
+  padding: 10px 6px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+
+.sections-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.section {
+  flex: 1;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.section h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.task-list {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto auto auto;
+  gap: 10px;
+  align-items: center;
+  font-size: 16px;
+}
+
+.task-item {
+  display: contents;
+}
+
+.task-item > div {
+  padding: 8px;
+  border-bottom: 1px solid #eee;
+}
+
+.completed-task {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #666;
+}
+
+.edit-input {
+  padding: 5px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}

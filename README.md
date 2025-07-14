@@ -1,39 +1,56 @@
-# OIBSIP
-All my tasks for level 2 of Oasis Infobyte Web Development Internship 
+# 🌟 Oasis Infobyte Internship Projects
 
-Level 2 Task 1 --- Calculator
-Developed using HTML,CSS,JavaScript
-Link to site -- simple-calculator-ks.netlify.app/
-Performs the following operations:
-1. Addition
-2. Multiplication
-3. Subtraction
-4. Division
-5. Percentage
-6. All clear 
-7. Disply result
-Landing page of the webapp
-![image](https://github.com/khushiSinghania11/OIBSIP/assets/109690883/eb2a9bef-b266-4de1-92d4-b970c2e123fa)
+Welcome to my GitHub repository for the **Oasis Infobyte Internship**! This repository contains all the tasks, projects, and assignments completed during the internship program.
 
+---
 
-Level 2 Task 2 --- Tribute page
-Developed using HTML and CSS
-Link to site --
-Landing page of the webapp
-![image](https://github.com/khushiSinghania11/OIBSIP/assets/109690883/9d7bfff8-4e4d-4204-a4cf-93386ae77ed7)
+## 📋 Task Overview
 
+This repository includes the following tasks:
 
-Level 2 Task 3 --- To do web app
-Developed using HTML,CSS,JavaScript
-Link to site -- to-do-list-khushisinghania.netlify.app
-Performs the following operations: 
-1. Add a task
-2. Display date and time when task is added
-3. Edit the task
-4. Delete the task
-5. Display incomplete tasks in Pending Tasks List
-6. Mark a pending task as completed
-7. Display the completed tasks in Completed Tasks List
-8. Display the date and time when task is marked as completed
-Landing page of the webapp
-![image](https://github.com/khushiSinghania11/OIBSIP/assets/109690883/cfef3c7f-5b65-4342-9a8f-f72373c46b8f)
+### 1. Calculator (L2_T1_Calculator)
+A basic web calculator built with HTML, CSS, and JavaScript. This task demonstrates fundamental web development skills and user interaction for arithmetic operations.
+
+### 2. Tribute Page (L2_T2_TRIBUTE_PAGE)
+A tribute page dedicated to Steve Jobs, created using HTML and CSS. This task focuses on webpage layout, design, and presenting biographical information in a visually appealing format.
+
+### 3. To-Do List (L2_T3_ToDoList)
+A simple To-Do List web application using HTML, CSS, and JavaScript. This task highlights dynamic DOM manipulation and task management features.
+
+### 4. Login Authentication (L2_T4_Login_Authentication)
+A modern login authentication interface developed with React, TypeScript, Tailwind CSS, and shadcn-ui. This task demonstrates user authentication concepts and modern frontend development practices.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Programming Languages**: Python, JavaScript *(depending on the task)*
+- **Tools**: Git, GitHub, Visual Studio Code
+- **Libraries/Frameworks**: React, Tailwind CSS, shadcn-ui
+
+---
+
+## 🚀 Getting Started
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Biswajitsahoo897/OIBSIP.git
+   ```
+
+2. Navigate into the project folder:
+   ```bash
+   cd OIBSIP
+   ```
+
+3. Open any task folder to explore the respective project.
+
+---
+
+## 📫 Contact
+
+- 📧 **Email**: [biswajitsahookunu2005@gmail.com](mailto:biswajitsahookunu2005@gmail.com)
+- 💼 **LinkedIn**: [www.linkedin.com/in/biswajit-sahoo-b378242b1](https://www.linkedin.com/in/biswajit-sahoo-b378242b1)
+
+---
+
+Thank you for visiting! ⭐ 
