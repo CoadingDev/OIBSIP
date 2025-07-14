@@ -32,15 +32,19 @@ A modern login authentication interface developed with React, TypeScript, Tailwi
 ## 🛠️ Video Explaination
 
 Calculator
+
 https://github.com/user-attachments/assets/35597ea8-7c45-4a97-97ed-62aad2211b80
 
 Tribute Page
+
 https://github.com/user-attachments/assets/064b809f-4b98-40f8-8cae-e39033f85cd6
 
 To-Do Webapp
+
 https://github.com/user-attachments/assets/8210934c-7ad8-4d2d-b492-2b1ef7a6c651
 
 Login Authentication
+
 https://github.com/user-attachments/assets/7df266c0-8cdf-48d0-b5eb-101e5ad16b33
 
 
